@@ -1,0 +1,82 @@
+# ======================
+# Laravel & PHP
+# ======================
+/vendor/
+/node_modules/
+public/storage
+storage/*.key
+.env
+.env.*
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+*.log
+
+# Laravel specific IDE files
+.idea/
+.phpunit.result.cache
+
+# Laravel cache and compiled files
+bootstrap/cache/
+
+# ======================
+# Python & Flask
+# ======================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-log.txt
+*.log
+*.pot
+*.mo
+
+# Python virtual environments
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+instance/
+*.db
+*.sqlite3
+
+# Flask instance and config
+config.py
+*.env
+
+# ======================
+# Jupyter Notebooks
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# OS and Editor files
+# ======================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# VSCode
+.vscode/
+
+# ======================
+# Other
+# ======================
+*.secret
+*.pem
+*.crt
+*.key
+*.p12
